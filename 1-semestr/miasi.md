@@ -31,7 +31,10 @@ Służą do przedstawienia statycznej struktury systemu informatycznego. Diagram
 - **Zależność** oznacza, że jedna klasa (niezależna) używa lub zależy od innej klasy (zależnej). 
 - **Realizacja** to związek między interfejsem a klasą, gdzie klasa implementuje operacje zdefiniowane w interfejsie.
 
-Klasa asocjacyjna to klasa, która reprezentuje asocjację, dodając do niej atrybuty i operacje. Umożliwia bardziej szczegółowy opis związku między klasami.
+**Typy klas:**
+- Klasy abstrakcyjne (ang. abstract classes): Klasy, które nie mogą mieć konkretnych instancji, stanowią uogólnienie obiektów konkretnych znajdujących się na niższych poziomach hierarchii.
+- Klasy konkretne (ang. concrete classes): Klasy, które mogą mieć instancje obiektów
+- Klasa asocjacyjna (ang. association class): Klasa, która reprezentuje asocjację między dwoma klasami, zawierająca dodatkowe atrybuty i operacje związane z tym związkiem. Służy do bardziej precyzyjnego opisu relacji między klasami.
 
 Związki między klasami mogą być wielokrotne (kilka asocjacji między tymi samymi klasami) lub zwrotne (klasa połączona z samą sobą).
 
@@ -135,7 +138,12 @@ Przedstawiają klasy graniczne, sterujące i przechowujące, które są wykorzys
 - Związki -- reprezentują relacje pomiędzy klasami analitycznymi i aktorami.
 - Klasa przechowująca (entity) -- reprezentuje dane, które muszą być przechowywane przez dłuższy czas, np. zawartość baz danych lub plików. Klasy te są związane z wieloma przypadkami użycia, ale nie mogą samodzielnie inicjować interakcji.
 - Klasa sterująca (control) -- Reprezentuje logikę aplikacji i określa jej przetwarzanie. Pośredniczy pomiędzy klasami granicznymi i przechowującymi, koordynując działania i sterując przepływem danych. Obiekty klas sterujących często istnieją tylko w trakcie wykonywania przypadku użycia. 
-- Klasa graniczna (boundary) -- reprezentuje interfejs systemu, czyli sposób, w jaki użytkownicy lub inne systemy wchodzą w interakcję z systemem. Klasy graniczne są odpowiedzialne za prezentowanie danych i przyjmowanie poleceń od aktorów. 
+- Klasa graniczna (boundary) -- reprezentuje interfejs systemu, czyli sposób, w jaki użytkownicy lub inne systemy wchodzą w interakcję z systemem. Klasy graniczne są odpowiedzialne za prezentowanie danych i przyjmowanie poleceń od aktorów.
+
+  **Klasy w modelowaniu analitycznym:**
+- Klasa graniczna (ang. boundary class):  Klasa, która reprezentuje interakcję aktora z systemem, w tym interfejsy użytkownika, raporty, strony internetowe, protokoły komunikacyjne i inne interfejsy. Może być interfejsem dla użytkownika, systemu, lub urządzenia. 
+- Klasa sterująca (ang. control class): Klasa reprezentująca logikę aplikacji i procesy, które koordynują interakcje między różnymi klasami. Pośredniczy między klasami granicznymi, przechowującymi i innymi klasami sterującymi. Obiekty tych klas często istnieją tylko podczas wykonywania przypadku użycia.
+- Klasa przechowująca (ang. entity class): Klasa reprezentująca dane, które muszą być przechowywane przez dłuższy czas (np. tabele w bazach danych, pliki). Nie może samodzielnie inicjować interakcji.
 
 ### III. Diagramy Modelowania Biznesowego
 Diagramy te służą do modelowania procesów biznesowych organizacji.
