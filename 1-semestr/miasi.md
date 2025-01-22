@@ -157,7 +157,7 @@ Dokumentują przepływ sterowania między logicznie powiązanymi fragmentami int
 - Przepływy sterowania: wskazuje kierunek przepływu kontroli między fragmentami interakcji.
 - Początek
 - Koniec
-- Fragmenty interakcji:odwołuje się do diagramu sekwencji (sd), komunikacji (cd) lub harmonogramowania (td), opisanych w danym fragmencie interakcji. W nagłówku diagramu sterowania interakcją wyróżnik jest wymagany, a nazwa fragmentu jest opcjonalna.
+- Fragmenty interakcji: odwołuje się do diagramu sekwencji (sd), komunikacji (cd) lub harmonogramowania (td), opisanych w danym fragmencie interakcji. W nagłówku diagramu sterowania interakcją wyróżnik jest wymagany, a nazwa fragmentu jest opcjonalna.
 - Przywoływanie wystąpienia interakcji: jest odwołaniem do diagramu interakcji (ref) oznaczonego nazwą.
 
 Diagram sterowania interakcją jest prezentowany w formie obramowanej, z wyróżnikiem diagramu (id), jego nazwą oraz listą instancji klasyfikatorów, które biorą udział w interakcji.
@@ -165,6 +165,11 @@ Diagram sterowania interakcją jest prezentowany w formie obramowanej, z wyróż
 **Sposoby oznaczania fragmentów interakcji:**
 - Jako przywoływane wystąpienia interakcji (ref), które odsyłają do innych diagramów interakcji. Stosuje się je zwłaszcza w przypadku złożonych diagramów, jak implementacyjne diagramy sekwencji.
 - Poprzez wyróżniki diagramów interakcji (sd, cd, td), gdy diagram sterowania interakcją przedstawia niezbyt złożone diagramy składowe.
+
+**Może składać się z:**
+- Diagramów sekwencji
+- Diagramów komunikacji
+- Diagramów harmonogramowania
 
 ## CASE
 Narzędzia CASE (Computer-Aided Software Engineering) to zintegrowane środowiska wspomagające proces tworzenia oprogramowania.
