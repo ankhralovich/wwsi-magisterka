@@ -46,10 +46,11 @@ Pokazują organizację elementów modelu w logiczne grupy (pakiety), pomagając 
 - Zależności:  Przedstawiane za pomocą strzałek, pokazują, jak pakiety są ze sobą powiązane. Zależności mogą oznaczać, że jeden pakiet używa lub zależy od elementów w innym pakiecie.
 
 ### Komponentów
-Prezentują fizyczne komponenty systemu i ich zależności.
+Przedstawiają logiczne elementy systemu zwane komponentami, ich interfejsy oraz zależności między nimi. Koncentrują się na architekturze oprogramowania, opisując interfejsy (usługi) dostarczane i wymagane przez poszczególne komponenty.
 
 ### Wdrożenia
 Ilustrują fizyczną architekturę systemu, czyli rozmieszczenie infrastruktury sprzętowej oraz platform użytkowania. Diagramy wdrożenia często wykorzystują stereotypy i metki, aby opisać dodatkowe właściwości węzłów.
+
 **Elementy:**
 - Węzły (nodes) -- fizyczne lub wirtualne elementy infrastruktury.
 - Artefakty -- izyczne manifestacje komponentów oprogramowania, takie jak pliki wykonywalne (.exe, .jar), pliki konfiguracyjne, bazy danych czy pliki bibliotek.
