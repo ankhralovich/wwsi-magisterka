@@ -41,6 +41,10 @@ Są to wystąpienia diagramów klas, pokazujące konkretne obiekty w systemie i 
 ### Pakietów
 Pokazują organizację elementów modelu w logiczne grupy (pakiety), pomagając zarządzać złożonymi systemami. Mogą być zagnieżdżane, opisywane dodatkowo przy pomocy stereotypów.
 
+**Elementy:**
+- Pakiety: Reprezentowane jako prostokąty z zakładką, zawierają elementy modelu.
+- Zależności:  Przedstawiane za pomocą strzałek, pokazują, jak pakiety są ze sobą powiązane. Zależności mogą oznaczać, że jeden pakiet używa lub zależy od elementów w innym pakiecie.
+
 ### Komponentów
 Prezentują fizyczne komponenty systemu i ich zależności.
 
@@ -109,6 +113,13 @@ Te diagramy, podobnie jak diagramy sekwencji, pokazują interakcje między obiek
 
 ### Harmonogramowania
 Rodzaj diagramu interakcji, reprezentujący na osi czasu zmiany dopuszczalnych stanów jakie może przyjmować instancja klasyfikatora uczestnicząca w interakcji. Diagramy te koncentrują się na czasie trwania interakcji i zmianach stanów obiektów w czasie
+
+**Elementy:**
+- Linia życia (Lifeline): Przedstawia obiekty lub komponenty, których stany są analizowane w czasie
+- Oś czasu:  Oś pozioma, która reprezentuje upływ czasu.
+- Stany:  Przedstawiane jako poziome pasy lub prostokąty, reprezentują stan, w jakim znajduje się obiekt w danym czasie
+- Przejścia:  Pokazują momenty, w których obiekt zmienia stan.
+- Ograniczenia czasowe:  Dodatkowe elementy, które mogą precyzować minimalny lub maksymalny czas trwania stanu lub przejścia.
 
 ### Opisu interakcji
 Przedstawiają połączone interakcje jako czynności.
