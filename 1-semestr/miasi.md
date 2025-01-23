@@ -2,7 +2,7 @@
 
 ## Pojęcia podstawowe
 - **Klasa** -- abstrakcyjny opis zbioru objektów o podobnych właściwościach i zachowaniach. Klasa definiuje szablon lub wzór, na podstawie którego tworzone są obiekty.
-- **Objekt** -- konkretny byt, instancja  klasy. Obiekty posiadają atrybuty (cechy statyczne) oraz operacje (określające zachowanie). Obiekty w systemie informatycznym przechodzą przez różne stany podczas swojego cyklu życia.
+- **Obiekt** -- konkretny byt, instancja  klasy. Obiekty posiadają atrybuty (cechy statyczne) oraz operacje (określające zachowanie). Obiekty w systemie informatycznym przechodzą przez różne stany podczas swojego cyklu życia.
 - **Model** -- pewna abstrakcja projektowanego systemu, widziana z określonej perspektywy, na określonym poziomie szczegółowości.
 - **Interakcja** -- sposób, w jaki objekty komunikują się ze sobą w systemie. Interakcje są przedstawiane na diagramach interakcji, takich jak diagramy sekwencji, diagramy komunikacji i diagramy sterowania interakcją. Interakcje mogą być współbieżne, warunkowe oraz iteracyjne.
 - **Stereotyp** -- mechanizm rozszerzalności w UML, modyfikuje znaczenie elementów UML, dodając im nową semantykę.
@@ -38,7 +38,7 @@ Służą do przedstawienia statycznej struktury systemu informatycznego. Diagram
 
 Związki między klasami mogą być wielokrotne (kilka asocjacji między tymi samymi klasami) lub zwrotne (klasa połączona z samą sobą).
 
-### Objektów
+### Obiektów
 Są to wystąpienia diagramów klas, pokazujące konkretne obiekty w systemie i ich powiązania. Odwzorowują strukturę systemu w wybranym momencie jego działania.
 
 ### Pakietów
