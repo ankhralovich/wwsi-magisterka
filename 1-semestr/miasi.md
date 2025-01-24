@@ -136,9 +136,6 @@ Przedstawiają klasy graniczne, sterujące i przechowujące, które są wykorzys
 
 - Aktorzy -- użytkownicy lub zewnętrzne systemy, które wchodzą w interakcję z modelowanym systemem.
 - Związki -- reprezentują relacje pomiędzy klasami analitycznymi i aktorami.
-- Klasa przechowująca (entity) -- reprezentuje dane, które muszą być przechowywane przez dłuższy czas, np. zawartość baz danych lub plików. Klasy te są związane z wieloma przypadkami użycia, ale nie mogą samodzielnie inicjować interakcji.
-- Klasa sterująca (control) -- Reprezentuje logikę aplikacji i określa jej przetwarzanie. Pośredniczy pomiędzy klasami granicznymi i przechowującymi, koordynując działania i sterując przepływem danych. Obiekty klas sterujących często istnieją tylko w trakcie wykonywania przypadku użycia. 
-- Klasa graniczna (boundary) -- reprezentuje interfejs systemu, czyli sposób, w jaki użytkownicy lub inne systemy wchodzą w interakcję z systemem. Klasy graniczne są odpowiedzialne za prezentowanie danych i przyjmowanie poleceń od aktorów.
 
   **Klasy w modelowaniu analitycznym:**
 - Klasa graniczna (ang. boundary class):  Klasa, która reprezentuje interakcję aktora z systemem, w tym interfejsy użytkownika, raporty, strony internetowe, protokoły komunikacyjne i inne interfejsy. Może być interfejsem dla użytkownika, systemu, lub urządzenia. 
